@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <form id="form" autocomplete="off">
+    <label for="first-name">First Name</label>
+    <input type="text" id="first-name" required />
+    <br />
+
+    <label for="last-name">Last Name</label>
+    <input type="text" id="last-name" required />
+    <br />
+
+    <label for="age">Age</label>
+    <input type="text" id="age" required />
+    <br />
+
+    <label for="gender">Gender</label>
+    <input type="text" id="gender" required />
+    <br />
+
+    <label for="locations">Locations:</label>
+    <select name="locations" id="locations">
+      <option value="telluride">Telluride</option>
+      <option value="nashville">Nashville</option>
+      <option value="carlsbad">Carlsbad</option>
+    </select>
+    <br>
+
+    <input
+      type="checkbox"
+      id="vegetarian"
+      name="vegetarian"
+      value="vegetarian"
+    />
+    <label for="vegetarian"> Vegetarian</label><br />
+    <input type="checkbox" id="kosher" name="kosher" value="kosher" />
+    <label for="kosher">Kosher</label><br />
+    <input type="checkbox" id="lactose" name="lactose" value="lactose" />
+    <label for="lactose">Lactose Free</label><br />
+
+    <button id="action" type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
